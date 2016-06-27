@@ -151,15 +151,16 @@
 
 //step 18
     var x = 20;
-    window.console.log(x + 20);
-    
+    window.console.log(x += 20);
+
 //step 19
+Declare a variable called x and assign it a value of 20. Next, multiply and assign 5 to that variable and display the result in the console window. The result should be 100.
     var x = 20;
-    window.console.log(x * 5);
+    window.console.log(x *= 5);
 
 //step 20
     var x = 20 % 3;
-    window.console.log(x / 1);
+    window.console.log(x /= 1);
     
 //step 21
     var lifeSpan = 70;
@@ -180,7 +181,7 @@
     window.console.log(widget instanceof Object);
 */
 //step 25
-    var widget = new Object();
+   /* var widget = new Object();
     window.console.log(widget in Object);
-
+*/
 
